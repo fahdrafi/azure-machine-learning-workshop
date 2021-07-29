@@ -42,7 +42,6 @@ Session 2.2 | 02:00 pm - 04:00 pm |- Session: [Azure Machine Learning using Pyth
 >
 > ```Notebooks/tutorials/3.train-on-local/train-on-local.ipynb```
 
-
 ## Day 3
 
 Session # | Time (PDT) | Topics
