@@ -1,12 +1,20 @@
-# MTC Open Workshop for AI
+# Workshop for Machine Learning on Azure
 
 ![logo](images/workshop_logo.png)
 
-Prerequisites
+Welcome to Microsoft Technology Center workshop for an introduction to Machine Learning on Azure. You will learn the basics of how to get started with the different ways of doing machine learning tasks on Azure Machine Learning Service.
+Following are some of the pre-requisites for you to have the best learning experience in this workshop.
 
-* [ v ] Basic knowledge of Cloud Computing, Python, and Machine Learning Concepts
-* [ v ] Bring your own Azure Subscription with **Contributor** permissions for a single **Resource Group**
-* [ v ] [Create Azure Machine Learning Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?tabs=azure-portal) before the workshop
+## Pre-requisites
+
+* Basic knowledge of Cloud Computing, Python, and Machine Learning Concepts
+* You should have an Azure subscription with appropriate permissions to be able to perform the tasks in this workshop.
+
+> You may also be able to use free credits available in the Visual Studio Subscription.
+>
+> You will typically need **Contributor** permission to be able to create an Azure Machine Learning resource.
+
+* [Create Azure Machine Learning Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?tabs=azure-portal) before the workshop
 
 ## Agenda
 
