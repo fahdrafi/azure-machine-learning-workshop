@@ -1,8 +1,8 @@
-###### Credit: Originally forked from: https://github.com/hyssh/mtc-open-workshop
-
 # Workshop for Machine Learning on Azure
 
 ![logo](images/workshop_logo.png)
+
+###### Originally forked from: [hyssh/mtc-open-workshop](https://github.com/hyssh/mtc-open-workshop)
 
 Welcome to Microsoft Technology Center workshop for an introduction to Machine Learning on Azure. You will learn the basics of how to get started with the different ways of doing machine learning tasks on Azure Machine Learning Service.
 Following are some of the pre-requisites for you to have the best learning experience in this workshop.
