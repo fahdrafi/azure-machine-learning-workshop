@@ -1,3 +1,5 @@
+###### Credit: Originally forked from: https://github.com/hyssh/mtc-open-workshop
+
 # Workshop for Machine Learning on Azure
 
 ![logo](images/workshop_logo.png)
