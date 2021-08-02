@@ -10,39 +10,62 @@ Following are some of the pre-requisites for you to have the best learning exper
 ## Pre-requisites
 
 * Basic knowledge of Cloud Computing, Python, and Machine Learning Concepts
+
 * You should have an Azure subscription with appropriate permissions to be able to perform the tasks in this workshop.
 
-> You may also be able to use free credits available in the Visual Studio Subscription.
->
-> You will typically need **Contributor** permission to be able to create an Azure Machine Learning resource.
-
-* [Create Azure Machine Learning Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?tabs=azure-portal) before the workshop
+    > You may also be able to use credits available with the Visual Studio Subscription if you have one.
+    >
+    > You will typically need **Contributor** permission to be able to create an Azure Machine Learning resource.
+    >
+    > You can try to [create an Azure Machine Learning Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?tabs=azure-portal) before the workshop for a head start and make sure you have the premissions to do so.
+    >
+    > If you are unsure about resource quotas available to you, you may want to check out [workspace level quotas](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-quotas#workspace-level-quotas) and request an increase. NOTE: Quota increase requests make take a few minutes or hours depending on your subscription support service levels.
 
 ## Agenda
 
 ### Day 1
 
 #### Session 1: (10am - 12pm)
-- Welcome and Introductions
-- Machine Learning process and Azure
-- Demo: Environment setup
-- Exercise: Setup your environment (Set up Azure ML Workspace)
+
+* Welcome and Introductions
+* Machine Learning process and Azure
+* Demo: Environment setup
+* Exercise: Setup your environment ([Set up Azure ML Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?tabs=azure-portal))
+
+> For this workshop, we recommend using the **public endpoint** networking option. You may create private endpoint but due to the scope of this exercise, we shall not troubleshoot networking issues during the workshop.
+
+Before we move on to the next part of the workshop, please make sure you have access to the workspace you just created by going to [ml.azure.com](ml.azure.com) and get to your newly created workspace through the web interface.
+
+![Sample AML Workspace](images/aml-ws-homescreen.jpg)
 
 #### Session 2: (1pm - 3pm)
-- Automated Machine Learning (With and without code)
-- Hands-On: Create your first AutoML model and test it
-- Turn off unused resources
+
+* Automated Machine Learning
+  * [Automated Machine Learning Concepts](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml)
+
+* Hands-On: Create your first AutoML model and test it
+  * [No code AutoML exercise (classification)](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-first-experiment-automated-ml)
+  * [No code AutoML exercise (time series forecasting)](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-automated-ml-forecast)
+  * For a more advanced exercise, you can also try [AutoML with the Python SDK](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-auto-train-models)
+
+    > The python SDK has more advanced functionality, not available in the web based UI.
+
+* Turn off unused resources
+  * You can delete compute instances without losing your work on the notebooks or experiment telemetry.
+  * Make sure compute clusters have a minimum number of nodes set to '0' (and Idle seconds before scale down set to a reasonable number) so they can resize to zero when idle.
 
 ### Day 2
 
 #### Session 1: (10am - 12pm)
-- No-code AzureML Studio Designer
-- Hands-on: Try AzureML studio yourself
+
+* No-code AzureML Studio Designer
+* Hands-on: Try AzureML studio yourself
 
 #### Session 2: (1pm - 3pm)
-- AzureML using Python SDK
-- Hands-on: AzureML Python getting started exercise
-- Turn off unused resources
+
+* AzureML using Python SDK
+* Hands-on: AzureML Python getting started exercise
+* Turn off unused resources
 
 > **Extra labs for Day 2**
 >
@@ -61,12 +84,14 @@ Following are some of the pre-requisites for you to have the best learning exper
 ### Day 3
 
 #### Session 1: (10am - 12pm)
-- Large Scale Machine Learning on Azure
-- Deep Learning leveraging GPU
-- Using AzureML Remote Compute Clusters
+
+* Large Scale Machine Learning on Azure
+* Deep Learning leveraging GPU
+* Using AzureML Remote Compute Clusters
 
 #### Session 2: (1pm - 3pm)
-- Intro to MLOps on Azure
-- AzureML Pipelines
-- Turn off unsed resources
-- Survey & Feedback
+
+* Intro to MLOps on Azure
+* AzureML Pipelines
+* Turn off unsed resources
+* Survey & Feedback
