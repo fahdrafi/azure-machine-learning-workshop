@@ -66,6 +66,8 @@ Before we move on to the next part of the workshop, please make sure you have ac
 #### Session 2: (1pm - 3pm)
 
 * AzureML using Python SDK
+  * Clone AzureML samples into a location in your files as shown in the following figure:
+  ![Clone Samples](images/clone-samples.jpg)
 * Hands-on: AzureML Python getting started exercise
 * Turn off unused resources
 
