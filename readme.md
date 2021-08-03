@@ -60,6 +60,8 @@ Before we move on to the next part of the workshop, please make sure you have ac
 
 * No-code AzureML Studio Designer
 * Hands-on: Try AzureML studio yourself
+  * [Train a no-code regression model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-designer-automobile-price-train-score)
+  * [Deploy a real-time inference model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-designer-automobile-price-deploy) from your no-code ML experiment
 
 #### Session 2: (1pm - 3pm)
 
