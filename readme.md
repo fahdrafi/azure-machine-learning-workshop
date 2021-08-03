@@ -77,8 +77,6 @@ Before we move on to the next part of the workshop, please make sure you have ac
 >
 > ```Notebooks/tutorials/2.train-with-datasets/train-with-datasets.ipynb```
 >
-></br>
->
 > Train on local hands-on lab notebook '**train-on-local.ipynb**'
 >
 > ```Notebooks/tutorials/3.train-on-local/train-on-local.ipynb```

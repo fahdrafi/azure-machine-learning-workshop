@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/home/hyssh/anaconda3/envs/azureml/bin/python"
+    "python.pythonPath": "/home/hyssh/anaconda3/envs/azureml/bin/python",
+    "azureML.defaultWorkspaceId": "/subscriptions/0b8ffb47-d633-4aac-a8d9-bc4b634e286b/resourceGroups/MLDemo/providers/Microsoft.MachineLearningServices/workspaces/fahdmldemo"
 }
