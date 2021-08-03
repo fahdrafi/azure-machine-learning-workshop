@@ -38,6 +38,10 @@ Before we move on to the next part of the workshop, please make sure you have ac
 
 ![Sample AML Workspace](images/aml-ws-homescreen.jpg)
 
+> Following resources may be useful for setting up software environments and private python packages:
+> * [Software Environments](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-environments)
+> * [Private python packages](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-private-python-packages)
+
 #### Session 2: (1pm - 3pm)
 
 * Automated Machine Learning
