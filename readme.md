@@ -103,11 +103,17 @@ Before we move on to the next part of the workshop, please make sure you have ac
   * [Train using Spark Cluster](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/training/train-in-spark/train-in-spark.ipynb)
 
 * Deep Learning leveraging GPU
+  * [Distributed TensorFlow with Horovod](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/ml-frameworks/tensorflow/distributed-tensorflow-with-horovod/distributed-tensorflow-with-horovod.ipynb)
 
 #### Session 2: (1pm - 3pm)
 
-* Intro to MLOps on Azure
-* AzureML Pipelines
+* [MLOps capabilities wth Azure ML](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/mlops-machine-learning)
+  > [Azure MLOps Github Resources](https://github.com/Microsoft/MLOps)
+
+* [AzureML Pipelines](https://docs.microsoft.com/en-us/azure/machine-learning/concept-ml-pipelines)
+  * **Hands on:** [Create your first Azure ML Pipeline](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/machine-learning-pipelines/intro-to-pipelines/aml-pipelines-getting-started.ipynb)
+    > [Explore some other pipeline samples on GitHub](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/machine-learning-pipelines)
+
 * Turn off unsed resources
 * Survey & Feedback
 
