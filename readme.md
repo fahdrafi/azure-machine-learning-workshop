@@ -29,10 +29,10 @@ Following are some of the pre-requisites for you to have the best learning exper
 
 * Welcome and Introductions
 * Machine Learning process and Azure
-* Demo: Environment setup
-* Exercise: Setup your environment ([Set up Azure ML Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?tabs=azure-portal))
+* **Demo:** Environment setup
+* **Exercise:** Setup your Azure resources ([Set up Azure ML Service](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace?tabs=azure-portal))
 
-> For this workshop, we recommend using the **public endpoint** networking option. You may create private endpoint but due to the scope of this exercise, we shall not troubleshoot networking issues during the workshop.
+  > For this workshop, we recommend using the **public endpoint** networking option. You may create private endpoint but due to the scope of this exercise, we shall not troubleshoot networking issues during the workshop.
 
 Before we move on to the next part of the workshop, please make sure you have access to the workspace you just created by going to [ml.azure.com](ml.azure.com) and get to your newly created workspace through the web interface.
 
@@ -47,7 +47,7 @@ Before we move on to the next part of the workshop, please make sure you have ac
 * Automated Machine Learning
   * [Automated Machine Learning Concepts](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml)
 
-* Hands-On: Create your first AutoML model and test it
+* **Hands-On:** Create your first AutoML model and test it
   * [No code AutoML exercise (classification)](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-first-experiment-automated-ml)
   * [No code AutoML exercise (time series forecasting)](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-automated-ml-forecast)
   * For a more advanced exercise, you can also try [AutoML with the Python SDK](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-auto-train-models)
@@ -62,23 +62,35 @@ Before we move on to the next part of the workshop, please make sure you have ac
 
 #### Session 1: (10am - 12pm)
 
-* No-code AzureML Studio Designer
-* Hands-on: Try AzureML studio yourself
+* No-code/low-code [AzureML Designer](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer)
+  
+  ![](images/designer-drag-and-drop.gif)
+
+* **Hands-on:** Try AzureML studio yourself
   * [Train a no-code regression model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-designer-automobile-price-train-score)
   * [Deploy a real-time inference model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-designer-automobile-price-deploy) from your no-code ML experiment
 
 #### Session 2: (1pm - 3pm)
 
 * AzureML using Python SDK
+  > For local development: [Setting up environment for notebooks on your local machine](https://github.com/Azure/MachineLearningNotebooks/blob/master/setup-environment/NBSETUP.md). For the workshop, we can use compute instances in AzureML Service.
   
-  * Clone AzureML samples into a location in your files as shown in the following figure:
+  Clone AzureML samples into a location in your files as shown in the following figure:
   ![Clone Samples](images/clone-samples.jpg)
 
 * **Hands-on:** AzureML Python getting started exercise
 
   * Start with a very simple example: [Quickstart: Train and deploy a model in Azure Machine Learning in 10 minutes](https://github.com/Azure/MachineLearningNotebooks/blob/master/tutorials/compute-instance-quickstarts/quickstart-azureml-in-10mins/quickstart-azureml-in-10mins.ipynb)
   
-    > This notebook can also be found in: Samples > tutorials > compute-instance-quickstarts > quickstart-azureml-in-10min 
+    > This notebook can also be found in: Samples > tutorials > compute-instance-quickstarts > quickstart-azureml-in-10min
+
+    > All links to sample notebooks are on github, they can also be found within the AzureML workspace > Notebooks > Samples that can be cloned into your own files.
+
+  * [Automated ML using Python SDK](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/automated-machine-learning/classification-credit-card-fraud/auto-ml-classification-credit-card-fraud.ipynb)
+
+  > [Sample notebook setting up **custom environments**](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/training/using-environments/using-environments.ipynb)
+
+* Optional advanced exercise: [Training on a remote linux VM](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/training/train-on-remote-vm/train-on-remote-vm.ipynb)
 
 * Turn off unused resources
 
@@ -87,8 +99,10 @@ Before we move on to the next part of the workshop, please make sure you have ac
 #### Session 1: (10am - 12pm)
 
 * Large Scale Machine Learning on Azure
+  * [Train using Azure Machine Learning Compute](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/training/train-on-amlcompute/train-on-amlcompute.ipynb)
+  * [Train using Spark Cluster](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/training/train-in-spark/train-in-spark.ipynb)
+
 * Deep Learning leveraging GPU
-* Using AzureML Remote Compute Clusters
 
 #### Session 2: (1pm - 3pm)
 
