@@ -109,6 +109,7 @@ Before we move on to the next part of the workshop, please make sure you have ac
 #### Session 2: (1pm - 3pm)
 
 * [MLOps capabilities wth Azure ML](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/mlops-machine-learning)
+  ![MLOps Python](/images/ml-ops-python.png)
   > [Azure MLOps Github Resources](https://github.com/Microsoft/MLOps)
 
 * [AzureML Pipelines](https://docs.microsoft.com/en-us/azure/machine-learning/concept-ml-pipelines)
