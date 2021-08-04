@@ -101,6 +101,7 @@ Before we move on to the next part of the workshop, please make sure you have ac
 * Large Scale Machine Learning on Azure
   * [Train using Azure Machine Learning Compute](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/training/train-on-amlcompute/train-on-amlcompute.ipynb)
   * [Train using Spark Cluster](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/training/train-in-spark/train-in-spark.ipynb)
+  * [Train on **any compute infrastructure** using Azure ARC](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-attach-arc-kubernetes)
 
 * Deep Learning leveraging GPU
   * [Distributed TensorFlow with Horovod](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/ml-frameworks/tensorflow/distributed-tensorflow-with-horovod/distributed-tensorflow-with-horovod.ipynb)
