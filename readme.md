@@ -70,13 +70,13 @@ Before we move on to the next part of the workshop, please make sure you have ac
   * [Train a no-code regression model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-designer-automobile-price-train-score)
   * [Deploy a real-time inference model](https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-designer-automobile-price-deploy) from your no-code ML experiment
 
-#### Session 2: (1pm - 3pm)
-
 * AzureML using Python SDK
   > For local development: [Setting up environment for notebooks on your local machine](https://github.com/Azure/MachineLearningNotebooks/blob/master/setup-environment/NBSETUP.md). For the workshop, we can use compute instances in AzureML Service.
   
   Clone AzureML samples into a location in your files as shown in the following figure:
   ![Clone Samples](images/clone-samples.jpg)
+
+#### Session 2: (1pm - 3pm)
 
 * **Hands-on:** AzureML Python getting started exercise
 
