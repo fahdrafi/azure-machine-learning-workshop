@@ -70,22 +70,17 @@ Before we move on to the next part of the workshop, please make sure you have ac
 #### Session 2: (1pm - 3pm)
 
 * AzureML using Python SDK
+  
   * Clone AzureML samples into a location in your files as shown in the following figure:
   ![Clone Samples](images/clone-samples.jpg)
-* Hands-on: AzureML Python getting started exercise
-* Turn off unused resources
 
-> **Extra labs for Day 2**
->
-> Dataset hands-on lab notebook '**AML-Dataset.ipynb**' and '**train-with-datasets.ipynb**'
->
-> ```Notebooks/tutorials/2.train-with-datasets/AML-Dataset.ipynb```
->
-> ```Notebooks/tutorials/2.train-with-datasets/train-with-datasets.ipynb```
->
-> Train on local hands-on lab notebook '**train-on-local.ipynb**'
->
-> ```Notebooks/tutorials/3.train-on-local/train-on-local.ipynb```
+* **Hands-on:** AzureML Python getting started exercise
+
+  * Start with a very simple example: [Quickstart: Train and deploy a model in Azure Machine Learning in 10 minutes](https://github.com/Azure/MachineLearningNotebooks/blob/master/tutorials/compute-instance-quickstarts/quickstart-azureml-in-10mins/quickstart-azureml-in-10mins.ipynb)
+  
+    > This notebook can also be found in: Samples > tutorials > compute-instance-quickstarts > quickstart-azureml-in-10min 
+
+* Turn off unused resources
 
 ### Day 3
 
@@ -102,16 +97,4 @@ Before we move on to the next part of the workshop, please make sure you have ac
 * Turn off unsed resources
 * Survey & Feedback
 
-## Reference and Resources:
-
-### Resources in Azure ML Service
-
-* [Create compute targets for model training and deployment in Azure Machine Learning studio](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-attach-compute-studio)
-* [Sizes for virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes)
-* [Create Azure Machine Learning datasets](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-register-datasets)
-
-### AutoML
-
-* [Prevent overfitting and imbalanced data with automated machine learning](https://docs.microsoft.com/en-us/azure/machine-learning/concept-manage-ml-pitfalls)
-* [Configure data splits and cross-validation in automated machine learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-cross-validation-data-splits)
-* [Data featurization in automated machine learning](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-features)
+### Links to Useful [Resources](resources/resources.md)
