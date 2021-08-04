@@ -113,7 +113,8 @@ Before we move on to the next part of the workshop, please make sure you have ac
 
 * [AzureML Pipelines](https://docs.microsoft.com/en-us/azure/machine-learning/concept-ml-pipelines)
   * **Hands on:** [Create your first Azure ML Pipeline](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/machine-learning-pipelines/intro-to-pipelines/aml-pipelines-getting-started.ipynb)
-    > [Explore some other pipeline samples on GitHub](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/machine-learning-pipelines)
+  
+    > [Explore other pipeline samples on GitHub](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/machine-learning-pipelines)
 
 * Turn off unsed resources
 * Survey & Feedback
